@@ -1,0 +1,30 @@
+### Exclude IDE files
+/.idea/
+/.vscode/
+
+###> symfony/framework-bundle ###
+APP_ENV=dev
+APP_SECRET=b683af00b143ddc9b92f8da17d99c317
+###< symfony/framework-bundle ###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+.env
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
